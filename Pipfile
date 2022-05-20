@@ -5,8 +5,16 @@ name = "pypi"
 
 [packages]
 django = "==2.2.5"
+pillow = "*"
+djangorestframework = "*"
+django-cors-headers = "*"
 
 [dev-packages]
+flake8 = "*"
+black = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.8.8"
+
+[pipenv]
+allow_prereleases = true
