@@ -42,6 +42,7 @@ PROJECT_APPS = [
     "users.apps.UsersConfig",
 ]
 
+# Rest_framework pakage, corsheaders 패키지 추가
 THIRD_PARTY_APPS = [
     "rest_framework",
     'corsheaders',

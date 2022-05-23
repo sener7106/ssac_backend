@@ -14,7 +14,7 @@ from .models import User
 from .serializers import UserSerializer
 from .permissions import IsSelf
 
-
+# 로그인 구현 (with Json Web Token)
 class UsersViewSet(ModelViewSet):
 
     queryset = User.objects.all()

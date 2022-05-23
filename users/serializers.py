@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from .models import User
 
-
+# DICT 객체를 JSON 객체로 변환하는 작업
 class UserSerializer(serializers.ModelSerializer):
 
     password = serializers.CharField(write_only=True)
