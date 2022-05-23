@@ -1,0 +1,18 @@
+#백엔드 환경 설정
+
+#pipenv
+pip install --user pipenv
+
+
+pipenv shell
+
+pipenv --3.8.8 # python version
+pipenv install Django==2.2.5
+pipenv install flake8 --dev
+pipenv install black --dev -pre
+
+# restframework 설치
+pip install markdown
+pip install djangorestframework
+pip install django-filter
+pip install django-cors-headers
