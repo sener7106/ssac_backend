@@ -1,3 +1,5 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+def go_conversation(request, a_pk, b_pk) :
+    pass
