@@ -40,6 +40,7 @@ DJANGO_APPS = [
 PROJECT_APPS = [
     "core.apps.CoreConfig",
     "users.apps.UsersConfig",
+    "chats.apps.ChatsConfig",
 ]
 
 # Rest_framework pakage, corsheaders 패키지 추가
