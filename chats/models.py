@@ -14,3 +14,14 @@ class Message(models.Model) :
     
     class Meta:
         ordering = ('timestamp',) 
+        
+        
+class ChatbotData(models.Model):
+    idx = models.IntegerField(primary_key=True)
+    questions = models.CharField(max_length=255, null=False)
+    answers_ko = models.CharField(max_length=255, null=False)
+    labels = models.IntegerField()
+    answers_en = models.CharField(max_length=255, null=False)
+
+    def __str__(self):
+        return self.questions 

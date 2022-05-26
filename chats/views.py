@@ -1,8 +1,8 @@
-from users.models import User                                # Django Build in User Model
+from users.models import User # Django Build in User Model
 from django.http.response import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework.parsers import JSONParser
-from chats.models import Message                                                   # Our Message model
+from chats.models import Message # Our Message model
 from chats.serializers import MessageSerializer # Our Serializer Classes
 
 # Users View
